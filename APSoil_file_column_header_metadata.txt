@@ -1,0 +1,114 @@
+Data file	Column header		Descsription
+APSoil_SpringPlantData.csv	Date		Date data were collected
+	Transect		Transect ID for one of the 5 transects 
+	Plot		Plot ID along Transect could be A-E
+	Fire		Fire Type - Prescribed-Burro; Wildfire-Tenaja
+	BurnCat		Fire Exposure - whether a plot was burned or unburned
+	FESPER:VICLUD		Species Codes for species with visual estimate of percent cover; Species names can be found in APSoil_Plant Species List.csv
+	shannondiv		Total Shannon-Weiner Diversity across all observed plant species for a plot
+	specnum		Total unique number of species observed in a plot
+	nat.specnum		Total unique number of native species observed in a plot
+	nat.shannondiv		Shannon-Weiner Diversity of native species
+	nat.cover		Total native plant cover
+	exo.specnum		Total unique number of exotic species observed in a plot
+	exo.shannondiv		Shannon-Weiner Diversity of exotic species
+	exo.cover		Total exotic plant cover
+	Total_Veg		Total vegetative cover in plot - out of 100 
+	Visible_Litter		Visible litter cover in plot where no plants are growing over - out of 100
+	Char		Total visible char or ash residue cover - out of 100
+	Bare		Total bare ground cover in plot - out of 100
+	Rock		Cover of sxposed rock where plant cannot grow - out of 100
+	Total_Litter		Total litter cover in plot - could be up to 100
+	initialchar		Percent Char estimated in first post-fire sampling
+			
+APSoil_Plant Species List.csv	SpeciesCode		six letter species code
+	Genus		Genus for a given plant species 
+	Species_epithet		Species epithet for a given plant species
+	Species_Binomial		full species name
+	Notes		"notes taken in the field to help with ID, NAs indicate no notes were recorded for the species"
+	Status		Origin status of plant species as either native or exotic
+			
+APSoil_Bacterial_Metadata_withsoilPCA_final	SampleID		concatenated Sample ID column that can be used as a key to link between experimental plot metadata and OUT data files. 
+	Fire		Fire Type - Prescribed-Burro; Wildfire-Tenaja
+	Transect		Transect ID for one of the 5 transects 
+	Replicate		Plot ID along Transect could be A-E
+	Timepoint		Identifies time point of sampling during the study.
+	Kingdom		Identifies whether data represent Bacterial or Fungal communities
+	BurnCat		Fire Exposure - whether a plot was burned or unburned
+	Date		Date data were collected
+	Timeframe		Time since fire for data collection
+	otu.H		Shannon entropy
+	otu.N1		Shannon diversity
+	otu.N2		Simpson's diversity
+	S.obs		observed number of OTUs in a plot
+	initialchar		Percent Char estimated in first post-fire sampling
+	OM		estimate of soil organic matter
+	P1		weak Bray estimate of Phosphurs concentration
+	HCO3_P		Sodium Bicarbonate-P; ppm
+	PH		soil pH
+	K		soil potassium concentration in ppm
+	NA.		soil sodium concentration in ppm
+	H		hydrogen cations as estimate of soil pH
+	CEC		cation exchange capacity
+	S		soil sulfur concentration in ppm
+	CopyNumber		qPCR copy number used as an estimate of microbial abundance
+	PCA1		soil PCA 1 axis score
+	PCA2		soil PCA 2 axis score
+			
+APSoil_otu_Bacteria_16S_rarefied data_final.csv	SampleID		concatenated Sample ID column that can be used as a key to link between experimental plot metadata and OTU data files
+			
+APSoil_Fungal-Metadata-withsoilPCA_final	SampleID		concatenated Sample ID column that can be used as a key to link between experimental plot metadata and OTU data files. 
+	Project		Fire Type - Prescribed-Burro; Wildfire-Tenaja
+	Transect		Transect ID for one of the 5 transects 
+	Replicate		Plot ID along Transect could be A-E
+	Timepoint		Identifies time point of sampling during the study.
+	Kingdom		Identifies whether data represent Bacterial or Fungal communities
+	BurnCat		Fire Exposure - whether a plot was burned or unburned
+	Date		Date data were collected
+	Timeframe		Time since fire for data collection
+	otu.H.fun		Shannon entropy
+	otu.N1		Shannon diversity
+	otu.N2		Simpson's diversity
+	S.obs		observed number of OTUs in a plot
+	initialchar		Percent Char estimated in first post-fire sampling
+	OM		estimate of soil organic matter
+	P1		weak Bray estimate of Phosphurs concentration
+	HCO3_P		Sodium Bicarbonate-P; ppm
+	PH		soil pH
+	K		soil potassium concentration in ppm
+	NA.		soil sodium concentration in ppm
+	H		hydrogen cations as estimate of soil pH
+	CEC		cation exchange capacity
+	S		soil sulfur concentration in ppm
+	CopyNumber		qPCR copy number used as an estimate of microbial abundance
+	PCA1		soil PCA 1 axis score
+	PCA2		soil PCA 2 axis score
+			
+APSoil_otu_Fungal_ITS_rarefied data_final.csv	SampleID		concatenated Sample ID column that can be used as a key to link between experimental plot metadata and OTU data files. 
+			
+APSoil_AMF data.csv	Date		Date data were collected
+	Transect		Transect ID for one of the 5 transects 
+	Replicate		Plot ID along Transect could be A-E
+	Fire		Fire Type - Prescribed-Burro; Wildfire-Tenaja
+	BurnCat		Fire Exposure - whether a plot was burned or unburned
+	shannondiv		Total Shannon-Weiner Diversity across all observed plant species for a plot
+	specnum		Total unique number of plant species observed in a plot
+	nat.specnum		Total unique number of native species observed in a plot
+	nat.shannondiv		Shannon-Weiner Diversity of native planttspecies
+	nat.cover		Total native plant cover
+	exo.specnum		Total unique number of exotic plant species observed in a plot
+	exo.shannondiv		Shannon-Weiner Diversity of exotic plantspecies
+	exo.cover		Total exotic plant cover
+	Total_Veg		Total vegetative cover in plot - out of 100 
+	Visible_Litter		Visible litter cover in plot where no plants are growing over - out of 100
+	Char		Total visible char or ash residue cover - out of 100
+	Bare		Total bare ground cover in plot - out of 100
+	Rock		Cover of sxposed rock where plant cannot grow - out of 100
+	Total_Litter		Total litter cover in plot - could be up to 100
+	T1_Char		Percent Char estimated in first post-fire sampling
+	otu.H		Shannon entropy of AMF OTUs
+	otu.N1		Shannon diversity of AMF OTUs
+	otu.N2		Simpson's diversity of AMF OTUs
+	S.obs		observed number of AMF OTUs in a plot
+	PCA1		soil PCA 1 axis score
+	PCA2		soil PCA 2 axis score
